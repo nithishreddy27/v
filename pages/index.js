@@ -53,9 +53,9 @@ export default function Index({ divRef }) {
             variants={variants}
           >
             <TextMaskVideo
-              videoSrc="https://res.cloudinary.com/dvl0qtkko/video/upload/v1732803357/graphic_xxmkk9.mp4"
-              text="GRAPHIC DESIGN"
-              tracking={0}
+              videoSrc="https://res.cloudinary.com/dvl0qtkko/video/upload/v1732775255/video_kev0pf.mp4"
+              text="PHOTOGRAPHY"
+              tracking={10}
             />
           </motion.div>
           <motion.div
@@ -71,6 +71,7 @@ export default function Index({ divRef }) {
               tracking={10}
             />
           </motion.div>
+
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -79,9 +80,9 @@ export default function Index({ divRef }) {
             variants={variants}
           >
             <TextMaskVideo
-              videoSrc="https://res.cloudinary.com/dvl0qtkko/video/upload/v1732775255/video_kev0pf.mp4"
-              text="PHOTOGRAPHY"
-              tracking={10}
+              videoSrc="https://res.cloudinary.com/dvl0qtkko/video/upload/v1732803357/graphic_xxmkk9.mp4"
+              text="GRAPHIC DESIGN"
+              tracking={0}
             />
           </motion.div>
         </div>

@@ -67,7 +67,7 @@ export default function Contact() {
             </div>
             <h3 className="font-semibold">Email us:</h3>
 
-            <a href="mailto:hello@example.com"> nithishreddygade@gmail.com</a>
+            <a href="mailto:hello@example.com">info@vayamdesigners.com</a>
           </div>
 
           <div className="flex flex-col items-center text-center space-y-2">
@@ -80,7 +80,7 @@ export default function Contact() {
               href="tel:+1234567890"
               className="text-sm text-blue-400 hover:underline"
             >
-              +91 850036976
+              +91 9032141474
             </a>
           </div>
         </div>

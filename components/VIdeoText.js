@@ -1,7 +1,7 @@
 export default function TextMaskVideo({ videoSrc, text, tracking }) {
   return (
     <div className="video-section h-half-screen  my-10">
-      <video src={videoSrc} autoPlay loop muted />
+      <video src={videoSrc} autoPlay loop muted preload="auto" playsInline />
       <div className="video-copy">
         <h1
           className={`${
