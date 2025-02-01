@@ -91,12 +91,12 @@ export default function PhotographyWork() {
         </div>
       </div> */}
       <main className="pt-10">
-        <h1 className="text-[20px] mx-10   my-2 sm:text-[30px] sm:mx-16 sm:my-5 ">
-          POTRAIT PHOTOGRAPHY
-        </h1>
         {/* <ImageCarousel images={potraitPhotos} /> */}
-        <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-8 lg:p-12">
-          <h1 className="mb-8 text-3xl font-bold">Responsive Image Carousel</h1>
+        <main className="p-10">
+          {/* <h1 className="mb-8 text-3xl font-bold">Responsive Image Carousel</h1> */}
+          <h1 className="text-[20px] mx-10    my-2 sm:text-[30px] sm:mx-16 sm:my-5 ">
+            POTRAIT PHOTOGRAPHY
+          </h1>
           <ImageCarousel images={potraitPhotos} />
         </main>
       </main>
