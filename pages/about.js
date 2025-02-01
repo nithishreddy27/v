@@ -101,10 +101,11 @@ export default function About() {
             <div className="bg-white w-full mx-1  overflow-hidden cursor-pointer relative">
               <div className="bg-white relative group">
                 <img
-                  src="/companies/EVOLVESKILLS.png"
+                  src="/companies/TTPOC.jpeg"
                   alt="Bike"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gray-200 bg-opacity-50 transition-opacity duration-350 opacity-0 group-hover:opacity-100"></div>
 
                 {/* <div
@@ -127,10 +128,11 @@ export default function About() {
             <div className="bg-white w-full mx-1 h-full overflow-hidden cursor-pointer relative">
               <div className="bg-white relative group h-full ">
                 <img
-                  src="/companies/LNT7.png"
+                  src="/companies/NASSCOM.png"
                   alt="Bike"
-                  className="w-full h-full object-cover transition-transform duration-500 scale-150 mt-5 group-hover:scale-160"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gray-200 bg-opacity-50 transition-opacity duration-350 opacity-0 group-hover:opacity-100"></div>
 
                 {/* <div
@@ -153,10 +155,11 @@ export default function About() {
             <div className="bg-white w-full mx-1  overflow-hidden cursor-pointer relative">
               <div className="bg-white relative group">
                 <img
-                  src="/companies/NASSCOM.png"
+                  src="/companies/EVOLVESKILLS.png"
                   alt="Bike"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gray-200 bg-opacity-50 transition-opacity duration-350 opacity-0 group-hover:opacity-100"></div>
                 {/* 
                 <div
@@ -205,7 +208,7 @@ export default function About() {
             <div className="bg-white w-full mx-1  overflow-hidden cursor-pointer relative">
               <div className="bg-white relative group">
                 <img
-                  src="/companies/TTPOC.jpeg"
+                  src="/companies/YUMMYTAILS.jpg"
                   alt="Bike"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -227,14 +230,15 @@ export default function About() {
                 </div> */}
               </div>
             </div>
-            <div className="bg-white w-full mx-1  overflow-hidden cursor-pointer relative">
+            <div className="bg-white pt-5 w-full mx-1  overflow-hidden cursor-pointer relative">
               <div className="bg-white relative group">
                 <img
-                  src="/companies/YUMMYTAILS.jpg"
+                  src="/companies/LNT7.png"
                   alt="Bike"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 scale-150 mt-5 group-hover:scale-160"
                 />
-                <div className="absolute inset-0 bg-gray-200 bg-opacity-50 transition-opacity duration-350 opacity-0 group-hover:opacity-100"></div>
+
+                {/* <div className="absolute inset-0 bg-gray-200 bg-opacity-50 transition-opacity duration-350 opacity-0 group-hover:opacity-100"></div> */}
 
                 {/* <div
                   onClick={() => toggleLike(0)}

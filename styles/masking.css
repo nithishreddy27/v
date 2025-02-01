@@ -2,7 +2,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 10vh; /* Set height to 50% of the viewport height */
+  height: 15vh; /* Set height to 50% of the viewport height */
 }
 
 .video-section video {
@@ -39,10 +39,19 @@
 @media (min-width: 440px) {
   /* Adjust this breakpoint as needed */
   .video-copy h1 {
-    font-size: 60px; /* Font size for larger devices */
+    font-size: 70px; /* Font size for larger devices */
   }
   .video-section {
-    height: 9vh;
+    height: 10vh;
+  }
+}
+@media (min-width: 550px) {
+  /* Adjust this breakpoint as needed */
+  .video-copy h1 {
+    font-size: 80px; /* Font size for larger devices */
+  }
+  .video-section {
+    height: 15vh;
   }
 }
 @media (min-width: 610px) {
@@ -81,7 +90,7 @@
 @media (min-width: 1150px) {
   /* Adjust this breakpoint as needed */
   .video-copy h1 {
-    font-size: 190px; /* Font size for larger devices */
+    font-size: 185px; /* Font size for larger devices */
   }
   .video-section {
     height: 35vh;
