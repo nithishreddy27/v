@@ -49,12 +49,12 @@ export default function PhotographyWork() {
 
   return (
     <div
-      className=" bg-black text-white py-10"
+      className=" bg-black text-white py-10 min-h-screen"
       style={{
         fontFamily: "Futura LT W01 Medium",
       }}
     >
-      <main className="pt-10">
+      {/* <main className="pt-10">
         <h1 className="text-[20px] mx-10   my-2 sm:text-[30px] sm:mx-16 sm:my-5 ">
           CORPORATE PHOTOGRAPHY
         </h1>
@@ -89,12 +89,16 @@ export default function PhotographyWork() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <main className="pt-10">
         <h1 className="text-[20px] mx-10   my-2 sm:text-[30px] sm:mx-16 sm:my-5 ">
           POTRAIT PHOTOGRAPHY
         </h1>
-        <ImageCarousel images={potraitPhotos} />
+        {/* <ImageCarousel images={potraitPhotos} /> */}
+        <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-8 lg:p-12">
+          <h1 className="mb-8 text-3xl font-bold">Responsive Image Carousel</h1>
+          <ImageCarousel images={potraitPhotos} />
+        </main>
       </main>
       <main className="pt-10">
         <h1 className="text-[20px] mx-10   my-2 sm:text-[30px] sm:mx-16 sm:my-5 ">

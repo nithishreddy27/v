@@ -230,8 +230,8 @@ export default function About() {
                 </div> */}
               </div>
             </div>
-            <div className="bg-white pt-5 w-full mx-1  overflow-hidden cursor-pointer relative">
-              <div className="bg-white relative group">
+            <div className="bg-black pt-5 w-full mx-1  overflow-hidden cursor-pointer relative">
+              <div className="bg-black relative group">
                 <img
                   src="/companies/LNT7.png"
                   alt="Bike"
